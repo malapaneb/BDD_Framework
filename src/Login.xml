@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LoginWithEmail>
+    <Login>
+        <iconQuest>
+            <identifier>xpath</identifier>
+            <Element>//*[@id='simplybiz_header']/user-wrapper/profile-btn/img</Element>
+        </iconQuest>
+        <email>
+            <identifier>xpath</identifier>
+            <Element>//div[@class='login-page']//input[@id='Email']</Element>
+        </email>
+        <password>
+            <identifier>xpath</identifier>
+            <Element>//input[@id='password']</Element>
+        </password>
+        <loginbtn>
+            <identifier>xpath</identifier>
+            <Element>//button[contains(text(),'Log in')]</Element>
+        </loginbtn>
+
+        <pfofilebtn>
+            <identifier>xpath</identifier>
+            <Element>//profile-btn[@class='login']//img[@class='rounded-circle']</Element>
+        </pfofilebtn>
+
+    </Login>
+    <Logout>
+        <logout>
+            <identifier>xpath</identifier>
+            <Element>//a[contains(text(),'Logout')]</Element>
+        </logout>
+    </Logout>>
+</LoginWithEmail>

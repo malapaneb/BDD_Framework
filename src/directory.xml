@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<directory>
+    <directory>
+        <catalog>
+            <identifier>xpath</identifier>
+            <Element>//body[1]/div[3]/div[2]/div[1]/ul[1]/li[2]/a[1]/span[1]</Element>
+        </catalog>
+        <directory>
+            <identifier>xpath</identifier>
+            <Element>//span[contains(text(),'Directory')]</Element>
+        </directory>
+        <product>
+            <identifier>xpath</identifier>
+            <Element>//body[1]/div[3]/div[2]/div[1]/ul[1]/li[2]/ul[1]/li[1]/ul[1]/li[1]/a[1]/span[1]</Element>
+        </product>
+        <all>
+            <identifier>xpath</identifier>
+            <Element>//body/div[3]/div[2]/div[1]/ul[1]/li[2]/ul[1]/li[1]/ul[1]/li[1]/ul[1]/li[1]/a[1]/span[1]</Element>
+        </all>
+        <editbutton>
+            <identifier>xpath</identifier>
+            <Element>//tbody/tr[1]/td[11]/a[1]</Element>
+        </editbutton>
+        <createadvert>
+            <identifier>xpath</identifier>
+            <Element>//body/div[3]/div[3]/div[1]/div[1]/div[2]/section[2]/a[1]/img[1]</Element>
+        </createadvert>
+
+        <advertname>
+            <identifier>xpath</identifier>
+            <Element>//h3[contains(text(),'Provide a name for your ad')]</Element>
+        </advertname>
+        <advertname1>
+            <identifier>xpath</identifier>
+            <Element>//body/div[3]/div[3]/div[1]/div[1]/section[1]/div[2]/div[1]/span[1]/div[1]/form[1]/div[1]/div[1]/div[1]/input[1]</Element>
+        </advertname1>
+        <productname>
+            <identifier>xpath</identifier>
+            <Element>//input[@id='SearchProductName']</Element>
+        </productname>
+
+        <seachproduct>
+            <identifier>xpath</identifier>
+            <Element>//button[@id='search-products']</Element>
+        </seachproduct>
+
+    </directory>
+
+</directory>
